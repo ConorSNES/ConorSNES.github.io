@@ -6,7 +6,8 @@
 
 
 body {
-	background-image: url("assets/bgimage.png");
+	background-color: #2f1955;
+	background-image: url("assets/bgimage-websafe.jpeg");
 	background-position: top left;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -60,8 +61,17 @@ body {
 
 .content figure {
 	margin: 0px;
-	display: block;
+	display: inline-block;
 	background-color: #FFFFFF33;
+	margin-top: 5px;
+}
+
+.content figure figcaption{
+	text-align: center;
+}
+
+.content figure img{
+	height: 100px;
 }
 
 .content a{
