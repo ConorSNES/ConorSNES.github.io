@@ -59,11 +59,19 @@ body {
 	font-size: 10px;
 }
 
+.content .figbox{
+	margin: 0;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	text-align: center;
+}
+
 .content figure {
 	margin: 0px;
 	display: inline-block;
 	background-color: #FFFFFF33;
 	margin-top: 5px;
+	padding: 10px;
 }
 
 .content figure figcaption{
@@ -74,6 +82,13 @@ body {
 
 .content figure img{
 	height: 100px;
+}
+
+.content figure button{
+	color: #000000;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .content a{
